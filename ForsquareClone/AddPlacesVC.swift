@@ -6,24 +6,69 @@
 //
 
 import UIKit
+import MapKit
 
-class AddPlacesVC: UIViewController {
+//var globalName = ""
+//var globalType = ""
+//var globalAtmosphere = ""
 
+
+class AddPlacesVC: UIViewController, UIImagePickerControllerDelegate & UINavigationControllerDelegate {
+
+    @IBOutlet weak var placesNAmeText: UITextField!
+    @IBOutlet weak var placesTypeText: UITextField!
+    @IBOutlet weak var placesAtmosphere: UITextField!
+    
+    @IBOutlet weak var selectImage: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+//pictutr tıklanabilir oldu
+        selectImage.isUserInteractionEnabled = true
+        let gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(choseImage))
+        selectImage.addGestureRecognizer(gestureRecognizer)
 
-        // Do any additional setup after loading the view.
+
     }
     
+    
+    @IBAction func nextClickes(_ sender: Any) {
+        if placesNAmeText.text != "" && placesTypeText.text != "" && placesAtmosphere.text != "" {
+            
+            if let chosenImage = selectImage.image{
+                PlaceModel.sharedInstance.placeName = placesNAmeText.text!
+                PlaceModel.sharedInstance.placeType = placesTypeText.text!
+                PlaceModel.sharedInstance.placeAtmosphere = placesAtmosphere.text!
+                PlaceModel.sharedInstance.placeImage = chosenImage
 
-    /*
-    // MARK: - Navigation
+                
+            }
+            self.performSegue(withIdentifier: "toMapVC", sender: nil)
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        } else{
+            
+            let alert = UIAlertController(title: "Error!", message: "place name/Type/Atmosphere ??", preferredStyle: UIAlertController.Style.alert)
+            let okButton = UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil)
+            alert.addAction(okButton)
+            present(alert, animated: true, completion: nil)
+        }
+        
+        
+        
+        
     }
-    */
-
+    
+    @objc func choseImage(){
+        //picker tanımlayıp galeriye gittik ve seçtik
+        let picker = UIImagePickerController()
+        picker.delegate = self
+        picker.sourceType = .photoLibrary
+        self.present(picker, animated: true, completion: nil)
+        
+    }
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        selectImage.image = info[.originalImage] as? UIImage
+        self.dismiss(animated: true, completion: nil)
+    }
+    
 }

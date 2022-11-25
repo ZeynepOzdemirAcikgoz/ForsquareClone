@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		72277E6C288EC80F00D6E8E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72277E6B288EC80F00D6E8E2 /* AppDelegate.swift */; };
 		72277E6E288EC80F00D6E8E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72277E6D288EC80F00D6E8E2 /* SceneDelegate.swift */; };
-		72277E70288EC80F00D6E8E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72277E6F288EC80F00D6E8E2 /* ViewController.swift */; };
+		72277E70288EC80F00D6E8E2 /* SingUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72277E6F288EC80F00D6E8E2 /* SingUpVC.swift */; };
 		72277E73288EC80F00D6E8E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72277E71288EC80F00D6E8E2 /* Main.storyboard */; };
 		72277E75288EC80F00D6E8E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72277E74288EC80F00D6E8E2 /* Assets.xcassets */; };
 		72277E78288EC80F00D6E8E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72277E76288EC80F00D6E8E2 /* LaunchScreen.storyboard */; };
+		72277E802893FE9500D6E8E2 /* PlacesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72277E7F2893FE9500D6E8E2 /* PlacesVC.swift */; };
+		72277E822894064400D6E8E2 /* AddPlacesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72277E812894064400D6E8E2 /* AddPlacesVC.swift */; };
+		72277E84289407A700D6E8E2 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72277E83289407A700D6E8E2 /* MapVC.swift */; };
+		72277E8628940C3F00D6E8E2 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72277E8528940C3F00D6E8E2 /* DetailVC.swift */; };
+		72277E882897EB5300D6E8E2 /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72277E872897EB5300D6E8E2 /* PlaceModel.swift */; };
+		F409220E0F3EEC36F6E9F676 /* Pods_ForsquareClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BF77C4A5B41DB93A7AEE93 /* Pods_ForsquareClone.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22BF77C4A5B41DB93A7AEE93 /* Pods_ForsquareClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForsquareClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72277E68288EC80F00D6E8E2 /* ForsquareClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForsquareClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72277E6B288EC80F00D6E8E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72277E6D288EC80F00D6E8E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		72277E6F288EC80F00D6E8E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		72277E6F288EC80F00D6E8E2 /* SingUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUpVC.swift; sourceTree = "<group>"; };
 		72277E72288EC80F00D6E8E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		72277E74288EC80F00D6E8E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72277E77288EC80F00D6E8E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72277E79288EC80F00D6E8E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72277E7F2893FE9500D6E8E2 /* PlacesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesVC.swift; sourceTree = "<group>"; };
+		72277E812894064400D6E8E2 /* AddPlacesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlacesVC.swift; sourceTree = "<group>"; };
+		72277E83289407A700D6E8E2 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		72277E8528940C3F00D6E8E2 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		72277E872897EB5300D6E8E2 /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
+		A34ED5739BB3AB93FDB4B499 /* Pods-ForsquareClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForsquareClone.debug.xcconfig"; path = "Target Support Files/Pods-ForsquareClone/Pods-ForsquareClone.debug.xcconfig"; sourceTree = "<group>"; };
+		BFB565BB2D50787FED9C2D5F /* Pods-ForsquareClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForsquareClone.release.xcconfig"; path = "Target Support Files/Pods-ForsquareClone/Pods-ForsquareClone.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F409220E0F3EEC36F6E9F676 /* Pods_ForsquareClone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3073421F8CBB829036A9B7EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22BF77C4A5B41DB93A7AEE93 /* Pods_ForsquareClone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		72277E5F288EC80E00D6E8E2 = {
 			isa = PBXGroup;
 			children = (
 				72277E6A288EC80F00D6E8E2 /* ForsquareClone */,
 				72277E69288EC80F00D6E8E2 /* Products */,
+				7CB95391C4046BD0D1B86A31 /* Pods */,
+				3073421F8CBB829036A9B7EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +83,27 @@
 			children = (
 				72277E6B288EC80F00D6E8E2 /* AppDelegate.swift */,
 				72277E6D288EC80F00D6E8E2 /* SceneDelegate.swift */,
-				72277E6F288EC80F00D6E8E2 /* ViewController.swift */,
+				72277E6F288EC80F00D6E8E2 /* SingUpVC.swift */,
+				72277E7F2893FE9500D6E8E2 /* PlacesVC.swift */,
+				72277E812894064400D6E8E2 /* AddPlacesVC.swift */,
+				72277E83289407A700D6E8E2 /* MapVC.swift */,
+				72277E8528940C3F00D6E8E2 /* DetailVC.swift */,
+				72277E872897EB5300D6E8E2 /* PlaceModel.swift */,
 				72277E71288EC80F00D6E8E2 /* Main.storyboard */,
 				72277E74288EC80F00D6E8E2 /* Assets.xcassets */,
 				72277E76288EC80F00D6E8E2 /* LaunchScreen.storyboard */,
 				72277E79288EC80F00D6E8E2 /* Info.plist */,
 			);
 			path = ForsquareClone;
+			sourceTree = "<group>";
+		};
+		7CB95391C4046BD0D1B86A31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A34ED5739BB3AB93FDB4B499 /* Pods-ForsquareClone.debug.xcconfig */,
+				BFB565BB2D50787FED9C2D5F /* Pods-ForsquareClone.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 72277E7C288EC80F00D6E8E2 /* Build configuration list for PBXNativeTarget "ForsquareClone" */;
 			buildPhases = (
+				042070707277810CBE2145DD /* [CP] Check Pods Manifest.lock */,
 				72277E64288EC80F00D6E8E2 /* Sources */,
 				72277E65288EC80F00D6E8E2 /* Frameworks */,
 				72277E66288EC80F00D6E8E2 /* Resources */,
+				E78CA65EA556EEE08A5A0921 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +174,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		042070707277810CBE2145DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ForsquareClone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E78CA65EA556EEE08A5A0921 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ForsquareClone/Pods-ForsquareClone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ForsquareClone/Pods-ForsquareClone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ForsquareClone/Pods-ForsquareClone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		72277E64288EC80F00D6E8E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72277E70288EC80F00D6E8E2 /* ViewController.swift in Sources */,
+				72277E70288EC80F00D6E8E2 /* SingUpVC.swift in Sources */,
+				72277E882897EB5300D6E8E2 /* PlaceModel.swift in Sources */,
+				72277E84289407A700D6E8E2 /* MapVC.swift in Sources */,
 				72277E6C288EC80F00D6E8E2 /* AppDelegate.swift in Sources */,
+				72277E822894064400D6E8E2 /* AddPlacesVC.swift in Sources */,
+				72277E802893FE9500D6E8E2 /* PlacesVC.swift in Sources */,
 				72277E6E288EC80F00D6E8E2 /* SceneDelegate.swift in Sources */,
+				72277E8628940C3F00D6E8E2 /* DetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +370,7 @@
 		};
 		72277E7D288EC80F00D6E8E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A34ED5739BB3AB93FDB4B499 /* Pods-ForsquareClone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +399,7 @@
 		};
 		72277E7E288EC80F00D6E8E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFB565BB2D50787FED9C2D5F /* Pods-ForsquareClone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
